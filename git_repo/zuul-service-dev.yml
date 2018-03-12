@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    city:
+      path: /city/**
+      service-id: city-service
+    data:
+      path: /data/**
+      service-id: collect-data
