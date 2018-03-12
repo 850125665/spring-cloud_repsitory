@@ -1,7 +1,7 @@
 zuul:
   routes:
     city:
-      path: /c/**
+      path: /city/**
       service-id: city-service
     data:
       path: /data/**
